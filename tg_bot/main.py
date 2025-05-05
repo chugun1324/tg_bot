@@ -13,7 +13,7 @@ dp = Dispatcher()
 async def main():
     dp.include_router(handlers_router)
     dp.include_router(button_router)
-    print("бот запущен")
+    print("bot start")
     await dp.start_polling(bot)
 
 if __name__ == "__main__":
