@@ -1,0 +1,27 @@
+tg-ai-bot/
+├── bot/                    # aiogram: логика бота
+│   ├── handlers.py        # обработка команд и сообщений
+│   ├── keyboards.py       # инлайн/реплай кнопки
+│   └── button.py          # оброботка кнопок
+├── services/              # бизнес-логика
+│   ├── ai_models.py       # вызовы к OpenAI, Gemini и т.п.
+│   └── user_manager.py    # работа с пользователями
+├── models/                # Pydantic / ORM модели
+│   ├── db.py              # SQLAlchemy подключение
+│   └── user.py            # модель User
+├── config/
+│   └── settings.py        # токены, ключи, пути
+        string.py          # все строки в проекте
+├── main.py                # точка входа
+├── requirements.txt
+├── .env
+└── README.md
+
+
+admin panel 
+ - выдача / снятие премиума 
+ - бан пользователям 
+ - Кол-во пользователей
+ - Кол-во запросов к API 
+ - Ответы на вопросы \ жалобы
+ - Добавление удаление админов
